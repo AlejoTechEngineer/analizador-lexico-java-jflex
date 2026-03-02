@@ -9,7 +9,7 @@
 ![Status](https://img.shields.io/badge/Status-✅%20Completado-brightgreen?style=for-the-badge)
 
 **Procesadores de Lenguajes**  
-Fundación Universitaria Internacional de La Rioja · Sexto Semestre
+Fundación Universitaria Internacional de La Rioja
 
 </div>
 
