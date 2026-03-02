@@ -160,7 +160,7 @@ Código fuente Java
 ## 👨‍💻 Autor
 
 **Alejandro De Mendoza**  
-Ingeniería Informática — Sexto Semestre  
+Ingeniería Informática 
 Fundación Universitaria Internacional de La Rioja  
 Procesadores de Lenguajes · 2026
 
