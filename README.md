@@ -8,7 +8,7 @@
 ![NetBeans](https://img.shields.io/badge/NetBeans-IDE-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-✅%20Completado-brightgreen?style=for-the-badge)
 
-**Laboratorio No. 2 — Procesadores de Lenguajes**  
+**Procesadores de Lenguajes**  
 Fundación Universitaria Internacional de La Rioja · Sexto Semestre
 
 </div>
