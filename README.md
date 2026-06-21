@@ -21,6 +21,23 @@ Implementación de un **analizador léxico completo para el lenguaje Java** usan
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Definition.flex - reglas JFlex] --> B[jflex-maven-plugin - pom.xml]
+    B --> C[Lexer.java - generado automaticamente]
+    C --> D[Tokens.java - 19 categorias lexicas]
+    D --> E[Simbolo.java - lexema - tipo - linea - columna]
+    E --> F[TablaSimbolos.java]
+    F --> G[FCompilador.java - controlador lexico]
+    G --> H[VentanaAnalizador.java - GUI Swing]
+    H --> I{Entrada de codigo Java}
+    I --> G
+    G -->|Error lexico| J[Deteccion de error sin interrupcion]
+    G -->|Token valido| F
+```
+
 ## ✨ Características
 
 - ✅ Reconocimiento de **19 categorías léxicas** del lenguaje Java
@@ -168,19 +185,3 @@ Procesadores de Lenguajes · 2026
 <div align="center">
 Desarrollado con ❤️ para el curso de Procesadores de Lenguajes
 </div>
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Definition.flex - reglas JFlex] --> B[jflex-maven-plugin - pom.xml]
-    B --> C[Lexer.java - generado automaticamente]
-    C --> D[Tokens.java - 19 categorias lexicas]
-    D --> E[Simbolo.java - lexema - tipo - linea - columna]
-    E --> F[TablaSimbolos.java]
-    F --> G[FCompilador.java - controlador lexico]
-    G --> H[VentanaAnalizador.java - GUI Swing]
-    H --> I{Entrada de codigo Java}
-    I --> G
-    G -->|Error lexico| J[Deteccion de error sin interrupcion]
-    G -->|Token valido| F
-```
